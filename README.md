@@ -1,33 +1,20 @@
 # Typing Game
 
-A polished, dependency-free browser typing game built with vanilla HTML, CSS and JavaScript.
+A browser-first typing arcade built around speed, accuracy, survival, combos and replayability.
 
-## Features
+## Play
 
-- Classic, Zen and Challenge modes
-- Live WPM and accuracy
-- Combo multiplier + best combo tracking
-- Adaptive level labels
-- Achievements and local progression
-- Personal best and run history
-- Sound feedback with Web Audio
-- Dark/light theme
-- Responsive desktop/mobile layout
-- Keyboard shortcuts: `Space` start/pause, `R` restart, `Esc` close stats
-- GitHub Pages compatible
+- Landing page: `index.html`
+- Arcade arena: `game.html`
 
-## Run
+## Design direction
 
-Open `index.html` in a modern browser. No build step or package install is required.
+The game sits between a typing test and an arcade game: racing-style pressure, arcade feedback, escalating difficulty, and progression keep the typing mechanic useful without making the experience feel like homework.
 
-## GitHub Pages
+## Deploy
 
-Enable Pages for the repository with **Deploy from a branch** → `main` → `/ (root)`.
+The repository includes `.github/workflows/pages.yml`. Pushes to `main` publish the site automatically through GitHub Pages.
 
-## Data
+## Stack
 
-Progress is stored locally in the browser with `localStorage`. No account or backend is required.
-
-## License
-
-MIT
+Vanilla HTML, CSS and JavaScript. No build step or npm dependency is required.
